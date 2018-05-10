@@ -27,7 +27,7 @@ public class adapter4Main extends RecyclerView.Adapter<adapter4Main.theViewHolde
         public theViewHolder(View v){
 
             super(v);
-            theIcon = v.findViewById(R.id.theIcon);
+            theIcon = v.findViewById(R.id.one);
             theChatBox = v.findViewById(R.id.theChatBox);
             theText = v.findViewById(R.id.messageView);
 

@@ -7,7 +7,7 @@
     android:layout_height="wrap_content">
 
     <ImageView
-        android:id="@+id/theIcon"
+        android:id="@+id/one"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginStart="24dp"
@@ -23,7 +23,7 @@
         android:layout_height="75dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
-        app:layout_constraintStart_toEndOf="@id/theIcon"
+        app:layout_constraintStart_toEndOf="@id/one"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/chatbox" />
 
